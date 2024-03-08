@@ -61,7 +61,7 @@ function eventsHandler(request, response, next) {
 
   const data = { message: "You're subscribed for ads-b messages" };
 
-  response.write("data: " + JSON.stringify(data) +"\n\n");
+//   response.write("data: " + JSON.stringify(data) +"\n\n");
 
   const clientId = Date.now();
 
